@@ -14,6 +14,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -Updated gitignore
 
+-Added docs folder with an index.md file with basic info about the homework
+
+
 ### Changed
 
 

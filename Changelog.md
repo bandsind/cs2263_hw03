@@ -14,10 +14,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -Updated gitignore
 
+-Updated changelog
+
 -Added docs folder with an index.md file with basic info about the homework
 
+-Initialised gradle  as a java application
+
+-Generated a javadoc into the folder "docs/javadoc" in the root of the project
+
+-Added plugin for license management from com.github.hierynomus.license-base" version "0.16.1"
+
+-Added JavaFX plugin from 'org.openjfx.javafxplugin' version '0.0.10'
+
+-Added the Gson dependency so that we can serialize data to JSON as needed.
 
 ### Changed
 
 
 ### Removed
+
+##

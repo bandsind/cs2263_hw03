@@ -8,7 +8,7 @@
 
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
-    id 'application'
+    id 'Application'
     id "com.github.hierynomus.license-base" version "0.16.1"
     id "com.github.hierynomus.license" version "0.15.0"
     id 'org.openjfx.javafxplugin' version '0.0.10'
@@ -31,8 +31,8 @@ dependencies {
 application {
     // Define the main class for the application.
     mainClass = 'edu.isu.cs2263.hw02.App'
-}
 
+}
 tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
@@ -61,4 +61,8 @@ javafx {
 
 license {
     header = project.file('LICENSE')
+}
+application {
+    // Define the main class for the application.
+    mainClass = 'cs2263_hw02.App'
 }

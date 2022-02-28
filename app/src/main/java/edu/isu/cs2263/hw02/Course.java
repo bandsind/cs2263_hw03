@@ -1,34 +1,23 @@
 package edu.isu.cs2263.hw02;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-
 public class Course {
 
 
-    private final String name;
-    private final int number;
-    private final int credit;
-    private final String departmentCode;
-    // constructor method
+    public static final String[] departmentNames = {"Computer Science", "Mathematics", "Chemistry", "Physics", "Biology", "Electrical Engineering"};
+
+    public static final String[] departments = {"CS", "MATH", "CHEM", "PHYS", "BIOL", "EE"};
+
+
+    private String name;
+    private int number;
+    private int credit;
+    private String departmentCode;
+
     public Course(String name, int number, int credit, String departmentCode) {
         this.name = name;
         this.number = number;
         this.credit = credit;
         this.departmentCode = departmentCode;
-    }
-
-    //getter method
-    public String getName() {
-        return name;
-    }
-    // getter method
-    public int getNumber() {
-        return number;
-    }
-    //getter method
-    public int getCredit() {
-        return credit;
     }
 
     public String getDepartmentCode() {
@@ -37,13 +26,25 @@ public class Course {
 
     @Override
     public String toString() {
-        return "Course{" +
-                "name='" + name + '\'' +
-                ", number=" + number +
-                ", credit=" + credit+
-                ", departmentCode='" + departmentCode+ '\'' +
-                '}';
+        return " " + departmentCode + "  " +name + "  " + number;
     }
+
+    /**
+     * Utility method to map a department name to a department code
+     *
+     * @param input The department name
+     * @return the department code, if able to be found. Null otherwise
+     */
+    public static String getDeptFromName(String input) {
+        for (int i = 0; i < departmentNames.length; i++) {
+            if (departmentNames[i].equals(input)) {
+                return departments[i];
+            }
+        }
+
+        return null;
+    }
+
 
 
 }

@@ -5,8 +5,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## [1.0.0] - 2022-02-27
+### Added
+- Initiated gradle in the repository
+- Added images folder and added
+- Added two UML design images from lucid-chart
+- Added courses.json file
+- Added all plugin in build.gradle
+- added two classes courses and CourseProcessor
 
-## [1.0.0] - 2022-02-19
+### Changed
+- Updated README.md
+- Updated Changelog 
+- Made changes to the CourseProcessor and Course class
+- Changed javafx code from tableview to GridPane 
+### Removed
+
+## [0.3.0] - 2022-02-19
 ### Added
 -Added Changelog file
 
@@ -29,8 +44,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -Added the Gson dependency so that we can serialize data to JSON as needed.
 
 ### Changed
-
+- 
 
 ### Removed
 
-##

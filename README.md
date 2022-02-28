@@ -19,5 +19,8 @@ The User can do the following:
 ## Contributor
 This project is individual project contributed by Sindi Banda.
 
+## Credits to:
+1. http://tutorials.jenkov.com/javafx/gridpane.html
+2. https://keepachangelog.com/en/1.0.0/
 ## License
 This project is licensed under MIT license.

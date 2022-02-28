@@ -44,7 +44,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -Added the Gson dependency so that we can serialize data to JSON as needed.
 
 ### Changed
-- 
+- Updated Change log
 
 ### Removed
 

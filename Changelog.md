@@ -20,7 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Made changes to the CourseProcessor and Course class
 - Changed javafx code from tableview to GridPane 
 ### Removed
-
+-json file
 ## [0.3.0] - 2022-02-19
 ### Added
 -Added Changelog file
